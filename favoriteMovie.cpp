@@ -30,8 +30,6 @@ int main() {
     cout << "Captain Hadley" << endl;
     cout << "" << endl;
     cout << "**********************************************" << endl;
-
-
     return 0;
 }
    
