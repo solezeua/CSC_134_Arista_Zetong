@@ -9,7 +9,7 @@
 using namespace std;
 
 int main(){
-    //declare the variables for this program.  for variables
+    //declare the variables for this program.  
     float F, C;
     //assign the value of F to 98.6
     F = 98.6;
