@@ -1,6 +1,6 @@
 /*
 @author:Arista Zetong
-@date:06/05/2026
+@date:06/11/2026
 @purpose: program that calculates and reports what the new average July high temperature is for each city.
 */
 
@@ -10,19 +10,21 @@ using namespace std;
 
 int main(){
     //declare the variables for this program
-    double newyorkTemp, denverTemp, phoenixTemp, avgeNewyorkTemp, avgeDenverTemp, avgePhoenixTemp;
-
+    double newyorkTemp, denverTemp, phoenixTemp; 
+    double avgeNewyorkTemp, avgeDenverTemp, avgePhoenixTemp;
+    double percentIncrease;
+    
     //assign the values of the temperatures for each day of the week
     newyorkTemp = 85;
     denverTemp = 88;
     phoenixTemp = 106;
-    
+    percentIncrease = 2;
 
 
     //calculate the new average high temperature for each city if temperatures rise by 2 percent.
-    avgeNewyorkTemp = newyorkTemp * 1.02;
-    avgeDenverTemp = denverTemp * 1.02;
-    avgePhoenixTemp = phoenixTemp * 1.02;
+    avgeNewyorkTemp = newyorkTemp * (1 + percentIncrease / 100);
+    avgeDenverTemp = denverTemp * (1 + percentIncrease / 100);
+    avgePhoenixTemp = phoenixTemp * (1 + percentIncrease / 100);
     
 
     //print the result to the console.
