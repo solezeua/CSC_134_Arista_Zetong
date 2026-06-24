@@ -7,10 +7,11 @@
 using namespace std;
 
 int main(){
+    // Initialize a counter
     int num = 0;
-    
+    // Loop until the counter reaches 10
     while (num < 10){
-        cout << "This is infinite\n";
+        cout << "This is infinite\n"; // Print an infinite message
         
     };
     

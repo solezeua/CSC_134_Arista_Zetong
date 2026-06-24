@@ -15,7 +15,7 @@ int main(){
     float average = 0;
 // Prompt the user to enter 10 grades.
     cout << "Please enter 10 grades (as floating point values):" << endl;
-
+// Loop through the grades.
     while (num < 10){
         // Prompt the user to enter a grade.
         cout << "Enter grade " << num + 1 << ": ";

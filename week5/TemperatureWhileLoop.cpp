@@ -8,16 +8,19 @@ them until they enter a temperature of 212.34 degrees.Once the proper temperatur
 using namespace std;
 
 int main(){
+    // declare a variable to store the temperature
    double temperature ;
+   //prompt the user to enter a temperature
     cout << "Please enter a temperature: ";
+    // Read the temperature from the user
     cin >> temperature;
 
-
+    // Check if the temperature is correct
     while (temperature != 212.34 ){
         cout << "Please enter a temperature: ";
         cin >> temperature;
     };
-
+    // Print a success message
     cout << "The temperature has been successfully set, thank you."<< endl;
 
     return 0;

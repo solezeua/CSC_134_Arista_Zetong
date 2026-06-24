@@ -22,23 +22,24 @@ int main(){
 
     // Calculate the hypotenuse
     double hypotenuse = sqrt(length_x * length_x + height_y * height_y);
-
+    cout << "The hypotenuse is: " << hypotenuse << endl;
     // Calculate the angle theta in radians
     double theta_radians = atan2(height_y, length_x);
-    
+    cout << "The angle theta in radians is: " << theta_radians << endl;
 
-    // Convert the angle to degrees
+    // Convert the angle from radians to degrees
     double theta_degrees = theta_radians * 180 / M_PI;
     cout << fixed << setprecision(2);
-
-    // Print the result
     cout << "The angle theta is: " << theta_degrees << " degrees" << endl;
-    while (theta_degrees == 53.13){
+
+    // loop through the result
+    
+    if (fabs(theta_degrees - 53.13) < 0.01){
         cout<< "This is a 3-4-5 triangle" << endl;
 
-    };
-    
-    cout<< "This is not a 3-4-5 triangle" << endl;
+    }else{
+        cout<< "This is not a 3-4-5 triangle" << endl;
+    }
     
     return 0;
 }
