@@ -9,9 +9,9 @@ using namespace std;
 
 int main(){
     // Initialize a counter
-    int counter = 0;
+    int counter = 1;
     // Loop until the 100th iteration
-    while (counter < 100){
+    while (counter <= 100){
         // print the current iteration
         cout << "Iteration: " << counter << endl;
         // Increment the counter
