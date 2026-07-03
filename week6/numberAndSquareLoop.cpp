@@ -1,6 +1,7 @@
 /* @author: Arista Zetong
    @date: 06/29/2026
-   @description: 5.program that sets an integer variable named minNum to the value of 0 and a variable named maxNum to 100. Implement a for-loop to print each number and its square to a simple table on the console. all 100 numbers and squares populated in the table.
+   @description: 5.program that sets an integer variable named minNum to the value of 0 and a variable named maxNum to 100.
+    Implement a for-loop to print each number and its square to a simple table on the console. all 100 numbers and squares populated in the table.
 
 */
 #include <iostream>
@@ -13,8 +14,8 @@ int main() {
 // display the header of the table
     cout << "Number | Number Square\n"
          << "----------------------\n";
-    for (int number = minNum; number <= maxNum; number++) {
-        cout << number << "\t\t" << (number * number) << endl;
+    for (int number = minNum; number <= maxNum; number++) { // Loop from minNum to maxNum
+        cout << number << "\t\t" << (number * number) << endl; // Print the number and its square
     }
     return 0;
 }

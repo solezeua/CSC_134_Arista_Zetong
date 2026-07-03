@@ -12,10 +12,11 @@ int main() {
     int num;
     cout << "Enter an integer: ";
     cin >> num;
+    // Display the multiplication table for the entered integer
 
     cout << "Multiplication table for " << num << ":" << endl;
-    for (int i = 0; i <= 12; i++) {
-        cout << num << " x " << i << " = " << num * i << endl;
+    for (int i = 0; i <= 12; i++) { // Loop from 0 to 12
+        cout << num << " x " << i << " = " << num * i << endl;// Print the multiplication result for each iteration
     }
 
     return 0;

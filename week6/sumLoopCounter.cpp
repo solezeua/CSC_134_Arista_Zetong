@@ -10,10 +10,11 @@ using namespace std;
 int main() {
     int sumOp = 0;
     int adder = 10;
+    
 
     for (int i = 1; i <= 50; i++) {
-        sumOp += i + adder;
-        cout << "The sum of iteration " << i << " is: " << sumOp << endl;
+        sumOp += i + adder;// Sum the loop counter and adder, and accumulate in sumOp
+        cout << "The sum of iteration " << i << " is: " << sumOp << endl;// Print the current sumOp value
     }
 
     return 0;

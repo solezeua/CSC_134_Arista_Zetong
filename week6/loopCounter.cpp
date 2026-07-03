@@ -8,10 +8,12 @@ using namespace std;
 
 
 int main(){
+    // Initialize a counter variable to count the number of iterations
     int count = 0;
-
+    // Loop that executes 10 times
     for (int i = 0; i < 10; i++) {
-        count++;
+        count++; // Increment the counter for each iteration
+        // Print the current iteration number
         cout << "The loop executed " << count << " times." << endl;
     }
     
