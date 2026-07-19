@@ -1,7 +1,7 @@
 /*
 @author: Arista Zetong
 @date: 07/15/2026
-@purpose:use a for-loop and what you have learned about array indexes to print the value of each array element to the console based on its array index.
+@purpose:use a for-loop and print the value of each array element to the console based on its array index.
 */
 #include <iostream>
 using namespace std;

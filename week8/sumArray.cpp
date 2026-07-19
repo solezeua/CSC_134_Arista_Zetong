@@ -9,14 +9,16 @@
 using namespace std;
 
 int main() {
+    //declare the variable
     const int SIZE = 5;
     int array[SIZE] = {10, 20, 30, 40, 50};
     int sum = 0;
 
+    // Sum the elements of the array
     for (int count = 0; count < SIZE; count++) {
         sum += array[count];
     }
-
+    // Print the sum of the array elements
     cout << "The sum of the array elements is: " << sum << endl;
 
     return 0;

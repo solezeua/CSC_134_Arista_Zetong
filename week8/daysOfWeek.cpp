@@ -1,7 +1,7 @@
 /*
 @author: Arista Zetong
 @date: 07/15/2026
-@purpose: Define an array of Strings that contains the days of the week(Sunday - Saturday) and print them.
+@purpose: Define an array of Strings that contains the days of the week and print them.
 */
 
 #include <iostream>
